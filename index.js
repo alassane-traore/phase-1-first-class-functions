@@ -1,9 +1,6 @@
-function receivesAFunction (ab) {
-    console.log ( ab ) 
+function receivesAFunction(callback) {
+    callback();
 }
-(receivesAFunction(function(){ 
-    console.log ('your complet name here!')
-}))
 
 function returnsANamedFunction(){
     function havereturn ( c) {
@@ -13,6 +10,6 @@ function returnsANamedFunction(){
 
 function returnsAnAnonymousFunction (){
 return function (m) {
-    console.log("m")
+    consolesss.log("m")
 }
 }
